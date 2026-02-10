@@ -1,0 +1,155 @@
+/*applied styles for html */
+
+/*body part of website*/
+body {
+    font-family: "Georgia", "Times New Roman", monospace; /*edits font and margins/padding for proper footer and header placement and font design*/
+    margin: 0;
+    padding: 0;
+    background-image: url('images/background.png'); /*sets bg as image that doesn't repeat and has proper size*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: #000000; /*font color*/
+}
+
+/*header part of website*/
+header {
+    display: flex; /*edits the orientation and display of information in the header*/
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /*creates space before header ends*/
+    background-color: #ffcee4;/*edits header color and font color*/
+    color: #000000; 
+}
+
+/*for the navigation part*/
+
+/* for the navigation container */
+.nav-container {
+    display: flex;
+    gap: 50px;
+}
+
+/*edits text color, font and ensures no lines in navigation links found at the top*/
+.nav-item a { 
+    font-family: "Georgia", "Times New Roman", monospace;
+    color: #000000;
+    text-decoration: none;
+}
+
+/*for images*/
+
+/*edits size of logo*/
+.logo-container img {
+    width: 250px;
+}
+
+/*edits size of featured image*/
+.featured-photo img { 
+    width: 100%;
+}
+
+/*edits labels for each parts, applies proper spacing, font, and alignment*/
+.projects, .skills, .autobiography {
+    font-family: "Georgia", "Times New Roman", monospace;
+    padding: 30px;
+    text-align: center;
+}
+
+/*for the projects*/
+
+/*ensures proper orientation of container and that the three have even spacing, and aligned properly*/
+.project-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/*edits each container of the projects*/
+.project-item { 
+    width: 500px; /*set the size of the container*/
+    background-color: #ffe6ee; /*sets  bg image and ensure proper spacing of items through padding*/
+    padding: 20px;
+    border: 1px solid #ffe6ee; /*defines border*/
+    text-align: center; /*defines text alignment*/
+}
+
+/*set project images inside the container of the project*/
+.project-item img { 
+    height: 100%;
+    width: 100%;
+}
+
+/*for the biography*/
+
+/*ensures proper orientation of autobiography container*/
+.autobiography {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*sets size and text alignment of the biography*/
+.biography { 
+    width: 800px;
+    text-align: center;
+}
+
+/*same as project and skill-item img but for biography*/
+.biography img { 
+    height: 100%;
+    width: 100%;
+}
+
+/*for the skills part*/
+
+.skill-grid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+/*editing each container of the skills - same as skill-item*/
+.skill-item { 
+    width: 500px;
+    background-color: #ffe6ee;
+    padding: 20px;
+    border: 1px solid #ffe6ee;
+    text-align: center;
+}
+
+/*same as project-item img but for skill item images*/
+.skill-item img {
+    height: 100%;
+    width: 100%;
+}
+
+/*for the footer*/
+
+/*edits design elements spacing through padding, alignment, and direction of text*/
+footer { 
+    background-color: #ffcee4;
+    color: #000000;
+    padding: 20px;
+    text-align: left;
+    flex-direction: column;
+}
+
+/*ensures items are centered and are beside each other*/
+footer .footer-content {
+    display: flex;
+    align-items: center;
+}
+
+/* margin and size edit of footer*/
+footer .footer-logo img { 
+    width: 150px;
+    margin-right: 15px;
+}
+
+/*center aligns back to top and copyright info*/
+.footer-bottom { 
+    text-align: center;
+}
