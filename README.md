@@ -10,10 +10,10 @@ https://cmsc100-laboratory.github.io/02-my-github-page-nthslies/
 ## Steps on how to create GitHub Page
 - Open GitHub and sign in accordingly
 - Create a repository or go to your existing one
-- Make sure that your HTML and CSS files are psuhed into the repository
+- Make sure that your HTML and CSS files are pushed into the repository
 - Go to settings on your repository
-- Under code and automtion, click on "Pages"
-- under "Build and Deployment" Branch, seelct your main branch and root, and then save
+- Under code and automation, click on "Pages"
+- Under "Build and Deployment" Branch, select your main branch and root, and then save
 - Wait for your website to be built
 - At the top of GitHub pages setting, it would show your website link
 
